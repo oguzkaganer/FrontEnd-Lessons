@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+div{
+    width: 100px;
+    height: 50px;
+    background-color: rebeccapurple;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: black 5px solid;
+    border-right: black 5px dotted;
+    /* margin: 0 0 10px 0; tavsiye edilmez*/
+    
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+#div3{
+    color: white;
+}
