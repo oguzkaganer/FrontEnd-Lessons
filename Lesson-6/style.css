@@ -1,0 +1,63 @@
+p.before::before {
+    content: "( ::before )";
+    padding: 25px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: goldenrod;
+}
+
+p.after::after {
+    content: " ( ::after )";
+}
+
+p.first-letter::first-letter {
+    color: red;
+    font-family: 'Courier New';
+}
+
+p.first-line::first-line {
+    color: cornflowerblue;
+}
+
+p.selection::selection {
+    color: red;
+    background: skyblue;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+/* p:first-of-type {
+    color: yellow;
+} */
+
+P:first-child {
+    color: red;
+}
+
+p:nth-child(2) {
+    color: aquamarine;
+}
+
+div:hover {
+    background-color: brown;
+}
+
+#name:focus {
+    background-color: aquamarine;
+}
+
+#save:hover {
+    background-color: grey;
+}
+
+#save:active {
+    background-color: red;
+}
+
+input:read-write {
+    background-color: yellow;
+}
