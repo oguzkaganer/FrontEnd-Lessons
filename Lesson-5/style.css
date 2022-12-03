@@ -1,0 +1,53 @@
+.container {
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    overflow: auto;
+}
+
+img {
+    width: 250px;
+    margin: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+p {
+    margin: 10px;
+}
+
+.box {
+    border: 2px solid black;
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 20px 20px;
+    box-shadow: 6px 6px 16px grey;
+}
+
+.item1 {
+    background-color: darksalmon;
+    float: left;
+}
+
+.item2 {
+    background-color: darkcyan;
+    float: left;
+}
+
+.item3 {
+    background-color: darkslateblue;
+    float: left;
+}
+
+.item1:hover {
+    position: relative;
+    top: 100px;
+}
