@@ -1,0 +1,51 @@
+h1[class] {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+h2[class=text] {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+h3[class~=box] {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+h4[class^=item] {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+h5[class$=top] {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+h6[class*=key] {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+}
+
+div[class|=alone] {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+p:before {
+    content: "✔ ";
+}
+
+p {
+    margin-top: 50px;
+    font-size: 30px;
+    color: brown;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>[attribute]</p>
+    <h1 class=""></h1>
+
+    <p>[attribute=value]</p>
+    <h2 class="text"></h2>
+
+    <p>[attribute~=value]</p>
+    <h3 class="box"></h3>
+    <h3 class="box other"></h3>
+    <h3 class="other box"></h3>
+
+    <p>[attribute^=value]</p>
+    <h4 class="item"></h4>
+    <h4 class="itemone"></h4>
+    <h4 class="itemone other"></h4>
+    <h4 class="other itemone">h4 class = "other itemone" --> Bu olmuyor</h4>
+
+    <p>[attribute$=value]</p>
+    <h5 class="top"></h5>
+    <h5 class="onetop"></h5>
+    <h5 class="one-top"></h5>
+    <h5 class="other one-top"></h5>
+    <h5 class="one-top other">h5 class="one-top other" --> Bu olmuyor</h5>
+
+    <p>[attribute*=value]</p>
+    <h6 class="key"></h6>
+    <h6 class="onekey"></h6>
+    <h6 class="keyone"></h6>
+    <h6 class="onekeyone"></h6>
+    <h6 class="one-key-one"></h6>
+    <h6 class="one-key one"></h6>
+
+    <p>[attribute|=value]</p>
+    <div class="alone-one"></div>
+    <br />
+    <div class="alone-two"></div>
+    <br />
+    <div class="alone-two other"></div>
+    <br />
+    <div class="other alone-two">
+      div class="other alone-two" -- > Bu olmuyor
+    </div>
+  </body>
+</html>
