@@ -1,0 +1,27 @@
+body {
+    font-size: 40px;
+}
+
+/* Burada birbirini ezebilecek kod satırları 
+olduğundan sıralama önemli oluyor. */
+
+
+/* div'in altındaki bütün p'ler */
+div p {
+    color: red;
+}
+
+/* Div'in çocuğu olan bütün p'ler. */
+div>p {
+    color: blue;
+}
+
+/* Div'in hemen altındaki kardeş p - (Hemen altında değilse olmuyor.)  */
+div+p {
+    color: orange;
+}
+
+/* Div'in altındaki bütün h5'ler */
+div~h5 {
+    color: green;
+}
