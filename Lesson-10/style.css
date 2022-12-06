@@ -1,0 +1,39 @@
+.sehir {
+    color: deeppink;
+}
+
+#sehir.sehir {
+    color: aqua
+}
+
+h1#sehir[class=sehir] {
+    color: black;
+}
+
+h1#sehir.sehir {
+    color: orangered
+}
+
+h1.sehir {
+    color: blue;
+}
+
+div h1.sehir {
+    color: green;
+}
+
+html body div h1 {
+    color: yellow;
+}
+
+body div h1 {
+    color: brown;
+}
+
+div h1 {
+    color: palevioletred;
+}
+
+h1 {
+    color: red;
+}
