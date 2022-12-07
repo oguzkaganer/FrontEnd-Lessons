@@ -1,0 +1,67 @@
+body {
+    height: 200vh;
+}
+
+div[class|=div] {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    color: white;
+}
+
+.div-1 {
+    background: red;
+}
+
+.div-2 {
+    background-image: linear-gradient(to right, red, green, blue);
+}
+
+.div-3 {
+    background-image: radial-gradient(green 40%, blue 60%);
+}
+
+.div-4 {
+    background-image: radial-gradient(closest-side at 30% 30%, blue, green, yellow, black);
+}
+
+.div-5 {
+    background: linear-gradient(215deg, rgba(2, 0, 36, 1) 0%, rgba(62, 88, 135, 1) 55%, rgba(0, 212, 255, 1) 100%);
+}
+
+.div-6 {
+    background-image: url(img/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-7 {
+    background-image: url(img/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    --background-attachment: fixed;
+}
+
+.div-8 {
+    background-image: url(img/image.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.div-9 {
+    background-image: url(img/image.jpg), url(img/image2.jpg);
+    background-position: left top, right top;
+    background-size: 100px 200px, 100px 200px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.div-10 {
+    background-image: url(img/image.jpg), url(img/image2.jpg);
+    background-position: right top, left top;
+    background-size: 100px 200px, 100px 200px;
+    background-repeat: no-repeat, no-repeat;
+}
