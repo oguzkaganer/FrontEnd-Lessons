@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+}
+
+div[class|=box] {
+    width: 200px;
+    height: 200px;
+}
+
+div[class*=green] {
+    background-color: green;
+    transition: transform 1s, background-color 1s;
+}
+
+div[class*=green]:hover {
+    background-color: aqua;
+    transform: translate(100px);
+}
+
+div[class*=blue] {
+    background-color: blue;
+    position: relative;
+
+    animation: myMove 5s ease;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+/* div[class*=blue]:hover {
+    animation: myMove 5s ease;
+} */
+
+div[class*=red] {
+    background-color: red;
+    transition: transform 1s;
+}
+
+div[class*=red]:hover {
+    transform: rotate(45deg);
+}
+
+@keyframes myMove {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 500px;
+        background-color: #16d9f3;
+        width: 50vw;
+        transform: scale(1.5);
+    }
+
+    100% {
+        left: 0px;
+        background-color: black;
+    }
+
+}
