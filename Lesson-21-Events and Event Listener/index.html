@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="button-group">
+
+      <button onclick="getDate()">Tarih</button>
+
+      <button onclick="document.getElementById('paragraf').innerHTML='Tarih:'+Date()">Tarih</button>
+
+      <button id="btnMessage">Mesaj</button>
+
+      <button onclick="this.innerHTML='Tıklandı'">Tıkla</button>
+
+    </div>
+    <div id="box-wrapper">
+      <p class="box" id="paragraf">Tarih : ? </p>
+    </div>
+    <hr />
+    <br>
+
+    <div id="box"></div>
+
+    <div id="parent-box">
+      <div id="child-box"></div>
+    </div>
+
+    <a href="" id="link">Tıkla</a>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
